@@ -20,7 +20,8 @@ Before you start you should have a recent version of `npm` and `node`
 installed.
 
 # Prerequisites 
-Navigate to mailingService.js at (server\services) folder and change [mailAccountUser, mailAccountPassword] to your business email and password. 
+- Navigate to mailingService.js at (server\services) folder and change [mailAccountUser, mailAccountPassword] to your business email and password. 
+- Navigate to database.js at (server\config) folder and change the database connection to your personal database
 
 # 1.0 Clone
 ```
