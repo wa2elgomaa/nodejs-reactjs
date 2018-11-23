@@ -1,0 +1,53 @@
+/*--------------------------------------------------------------
+1.0 App
+--------------------------------------------------------------*/
+
+.app{
+  height: 100%;
+}
+
+/*--------------------------------------------------------------
+2.0 Sidebar styles
+--------------------------------------------------------------*/
+
+.app__sider .app__sider__logo{
+  width:calc(100% - 20px);
+  margin-left: 10px;
+}
+
+/*--------------------------------------------------------------
+3.0 Header
+--------------------------------------------------------------*/
+.app__header {
+  overflow: hidden;
+  padding-left: 10px !important;
+  color:#fff;
+  background: url(/img/header-bg.png) no-repeat center !important;
+}
+.app__header .app__header__trigger{
+  cursor: pointer;
+}
+.app__header .app__header__trigger:hover{
+  color:#00c1ff;
+}
+.app__header .app__header__logout{
+  float: right;
+  margin-top: 24px;
+  cursor: pointer;
+}
+.app__header .app__header__logout:hover{
+  color: #001e45;
+}
+/*--------------------------------------------------------------
+4.0 Content
+--------------------------------------------------------------*/
+.app__content{
+  margin: 24px 16px; 
+  padding: 24px; 
+  background: #fff; 
+  min-height: 280px; 
+}
+
+.items__single label{
+    font-weight: bold;
+}
