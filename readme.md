@@ -1,5 +1,13 @@
 # Overview
-The app is using NodeJS & ReactJS framework 
+The app is using 
+- NodeJS 
+- ReactJS framework 
+- MongoDB - Mongoose 
+- JWT Token
+- Passport for Authentication  
+
+# Use case 
+This is a sample products store , With a demo content added to mongo db
 - Anyone can get all items stored in the database.
 - A user can make an order of items.
 - When a user sets an order, he should receive a confirmation email.
@@ -7,10 +15,13 @@ The app is using NodeJS & ReactJS framework
 - A user can get a history of all his previous orders.
 - An admin can get all users alongside their previous orders.
 
-
 # Getting started
 Before you start you should have a recent version of `npm` and `node`
 installed.
+
+# Prerequisities 
+Navigate to mailingService.js at (server\services) folder and change [mailAccountUser, mailAccountPassword] to your business email and password. 
+
 # 1.0 Clone
 ```
   git clone https://github.com/wa2elgomaa/nodejs-reactjs.git
@@ -33,7 +44,7 @@ Navigate to the cloned directory and run
 npm install
 npm start
 ```
-The development server should open a new tab at your browser.
+The development server should open a new tab at your browser. Your application should be working on http://localhost:8080.
 
 
 
