@@ -13,10 +13,10 @@ Before you start you should have a recent version of `npm` and `node`
 installed.
 # 1.0 Clone
 ```
-  git clone
+  git clone https://github.com/wa2elgomaa/nodejs-reactjs.git
   
 ```
-# 2.0 Build
+# 2.0 Installing 
 Navigate to the "server" directory inside the cloned folder and run 
 ```
   npm install
@@ -28,12 +28,12 @@ Navigate to the "client" directory inside the cloned folder and run
 ```
 npm install
 ```
-
 Navigate to the cloned directory and run 
 ```
 npm install
 npm start
 ```
+The development server should open a new tab at your browser.
 
 
 
