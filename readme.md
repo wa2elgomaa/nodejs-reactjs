@@ -19,7 +19,7 @@ This is a sample products store , With a demo content added to mongo db
 Before you start you should have a recent version of `npm` and `node`
 installed.
 
-# Prerequisities 
+# Prerequisites 
 Navigate to mailingService.js at (server\services) folder and change [mailAccountUser, mailAccountPassword] to your business email and password. 
 
 # 1.0 Clone
