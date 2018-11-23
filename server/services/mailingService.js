@@ -2,8 +2,8 @@
 var nodemailer = require('nodemailer');
 var smtpTransport = require('nodemailer-smtp-transport');
 
-var mailAccountUser = 'w.gom3a@gmail.com'
-var mailAccountPassword = '@B01899eb'
+var mailAccountUser = 'mail@gmail.com'
+var mailAccountPassword = '@pass'
 
 
 exports.send = (mail ,callback)=>{
